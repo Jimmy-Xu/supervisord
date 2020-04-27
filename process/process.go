@@ -7,7 +7,7 @@ import (
 	"github.com/ochinchina/supervisord/events"
 	"github.com/ochinchina/supervisord/logger"
 	"github.com/ochinchina/supervisord/signals"
-	"github.com/robfig/cron/v3"
+	"github.com/robfig/cron"
 	log "github.com/sirupsen/logrus"
 	"io"
 	"os"
